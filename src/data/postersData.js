@@ -1,3 +1,34 @@
+// Anime Posters Imported Images
+import brotherhoodImg from '../../images/anime/Brotherhood.jpeg';
+import demonImg from '../../images/anime/demon.jpeg';
+import narutoImg from '../../images/anime/naruto.jpeg';
+import onePieceImg from '../../images/anime/one-piece.jpeg';
+import titanImg from '../../images/anime/titan.jpeg';
+
+// Comics Posters Imported Images
+import ghostImg from '../../images/comics/ghost.jpeg';
+import hulkImg from '../../images/comics/hulk.jpeg';
+import ironImg from '../../images/comics/iron.jpeg';
+import pantherImg from '../../images/comics/panther.jpeg';
+import thorImg from '../../images/comics/thor.jpeg';
+
+
+// God & Spiritual Posters Imported Images
+import krishnaImg from '../../images/god/krishna.jpeg';
+import mixedImg from '../../images/god/mixed.jpeg';
+import murugaImg from '../../images/god/muruga.jpeg';
+import shivaImg from '../../images/god/shiva.jpeg';
+import templeImg from '../../images/god/temple.jpeg';
+
+
+// Cartoon Posters Imported Images
+import doremonImg from '../../images/cartoon/doremon.jpeg';
+import oggyImg from '../../images/cartoon/oggy.jpeg';
+import pandaImg from '../../images/cartoon/panda.jpeg';
+import sonicImg from '../../images/cartoon/Sonic.jpeg';
+import tomImg from '../../images/cartoon/tom.jpeg';
+
+
 export const CATEGORIES = [
   { id: 'all', name: 'All Posters', badge: '12 Designs' },
   { id: 'anime', name: 'Anime', badge: 'Series' },
@@ -22,39 +53,63 @@ export const FRAME_OPTIONS = [
 
 export const POSTERS = [
   // ANIME CATEGORY
+  
   {
     id: 'px-anime-01',
-    title: 'Cyber Ronin X: Blue Blade',
+    title: 'Sun God Gear Awakening',
     category: 'anime',
-    subtitle: 'NEO-TOKYO SERIES // VOL. 01',
-    finish: '300 GSM Matte + Spot UV',
+    subtitle: 'ONE PIECE // GRAND LINE LEGENDS',
+    finish: 'HD Satin Archival Print',
     badge: 'Signature Anime',
-    accent: '#3B82F6',
-    image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85',
-    description: 'High-contrast cyber-samurai artwork featuring electric blue katana slashes and gold foil accents on 300 GSM archival matte paper.'
+    accent: '#FBBF24',
+    image: onePieceImg, 
+    description: 'Explosive celestial clouds, liberated freedom spirit, and radiant golden energy bursts inspired by the legendary pirate voyage.'
   },
   {
     id: 'px-anime-02',
-    title: 'Sun God Gear Awakening',
+    title: 'Wings of Freedom: Scout Regiment',
     category: 'anime',
-    subtitle: 'GRAND LINE LEGENDS // 05',
-    finish: 'HD Satin Archival Print',
-    badge: 'Anime Fan Art',
-    accent: '#FBBF24',
-    image: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=900&q=85',
-    description: 'Explosive celestial clouds and radiant golden energy bursts designed to stand out under ambient room lighting.'
+    subtitle: 'ATTACK ON TITAN // WALLS OF PARADIS',
+    finish: '300 GSM Matte + Spot UV',
+    badge: 'Bestseller',
+    accent: '#059669',
+    image: titanImg, 
+    description: 'Vertical maneuvering gear aesthetic featuring dark wall tones, dramatic smoke, and the iconic blue-and-white freedom wings emblem.'
   },
   {
     id: 'px-anime-03',
-    title: 'Shadow Monarch: Arise',
+    title: 'Hinokami Kagura Dance',
     category: 'anime',
-    subtitle: 'DUNGEON SOVEREIGN // 09',
+    subtitle: 'DEMON SLAYER // CORPS PILLARS',
     finish: 'Deep Matte Velvet Finish',
     badge: 'Glow Series',
-    accent: '#3B82F6',
-    image: 'https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=900&q=85',
-    description: 'Deep midnight abyss tones paired with glowing azure sovereign flames and razor-sharp line art.'
+    accent: '#EF4444',
+    image: demonImg, 
+    description: 'Brilliant crimson flame breathing effects and checkered haori motifs contrasted sharply against a dark demonic abyss.'
   },
+  {
+    id: 'px-anime-04',
+    title: 'Seventh Hokage Legacy',
+    category: 'anime',
+    subtitle: 'NARUTO // HIDDEN LEAF WAY',
+    finish: 'Holographic Metallic Foil',
+    badge: 'Fan Favorite',
+    accent: '#F97316',
+    image: narutoImg, 
+    description: 'Vibrant orange chakra glows, swirling wind styles, and legendary ninja scrolls rendered in striking metallic foil.'
+  },
+  {
+    id: 'px-anime-05',
+    title: 'Fullmetal Alchemical Order',
+    category: 'anime',
+    subtitle: 'BROTHERHOOD // STATE ALCHEMIST',
+    finish: 'Soft Touch Velvet Matte',
+    badge: 'Limited Edition',
+    accent: '#3B82F6',
+    image: brotherhoodImg, 
+    description: 'Intricate transmutation circles and legendary alchemical symbols representing equivalent exchange and unbreakable bonds.'
+  }
+,
 
   // COMICS CATEGORY
   {
@@ -65,7 +120,7 @@ export const POSTERS = [
     finish: 'Vintage Halftone Matte',
     badge: 'Halftone Print',
     accent: '#FBBF24',
-    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=900&q=85',
+    image: ghostImg,
     description: 'Classic comic-book halftone dots meet striking amber skyline silhouettes for a bold collector wall piece.'
   },
   {
@@ -76,7 +131,7 @@ export const POSTERS = [
     finish: 'High-Gloss Chromatic Print',
     badge: 'Comic Action',
     accent: '#3B82F6',
-    image: 'https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=900&q=85',
+    image:  ironImg,
     description: 'Dynamic mid-air leap across a neon cityscape with comic speedlines and chromatic aberration detail.'
   },
   {
@@ -87,7 +142,29 @@ export const POSTERS = [
     finish: '300 GSM Heavyweight Art',
     badge: 'Classic Cover',
     accent: '#FBBF24',
-    image: 'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=900&q=85',
+    image: pantherImg,
+    description: 'Signature yellow-and-blue slash motif paying homage to golden-age comic covers.'
+  },
+    {
+    id: 'px-comic-04',
+    title: 'Adamantium Berserker X',
+    category: 'comics',
+    subtitle: 'MUTANT CHRONICLES // #01',
+    finish: '300 GSM Heavyweight Art',
+    badge: 'Classic Cover',
+    accent: '#FBBF24',
+    image: thorImg,
+    description: 'Signature yellow-and-blue slash motif paying homage to golden-age comic covers.'
+  },
+    {
+    id: 'px-comic-05',
+    title: 'Adamantium Berserker X',
+    category: 'comics',
+    subtitle: 'MUTANT CHRONICLES // #01',
+    finish: '300 GSM Heavyweight Art',
+    badge: 'Classic Cover',
+    accent: '#FBBF24',
+    image: hulkImg,
     description: 'Signature yellow-and-blue slash motif paying homage to golden-age comic covers.'
   },
 
@@ -100,7 +177,7 @@ export const POSTERS = [
     finish: 'Metallic Gold Foil Accents',
     badge: 'Gold Foil Art',
     accent: '#3B82F6',
-    image: 'https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?auto=format&fit=crop&w=900&q=85',
+    image:  shivaImg,
     description: 'Sacred meditation silhouette bathed in cosmic Neelkanth blue nebula light and golden trishul geometry.'
   },
   {
@@ -111,7 +188,7 @@ export const POSTERS = [
     finish: 'Textured Canvas Matte',
     badge: 'Sacred Impact',
     accent: '#FBBF24',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=85',
+    image: krishnaImg,
     description: 'Radiant golden sunrise aura symbolizing strength, devotion, and fearless energy for your living space or gym.'
   },
   {
@@ -122,7 +199,29 @@ export const POSTERS = [
     finish: 'Pearl Lustre Archival Print',
     badge: 'Peaceful Aura',
     accent: '#3B82F6',
-    image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=900&q=85',
+    image: mixedImg,
+    description: 'Iridescent peacock-feather blues paired with serene golden flute notes and sacred lotus motifs.'
+  },
+  {
+    id: 'px-god-04',
+    title: 'Divine Krishna Bansuri',
+    category: 'god',
+    subtitle: 'VRINDAVAN CELESTIAL // 03',
+    finish: 'Pearl Lustre Archival Print',
+    badge: 'Peaceful Aura',
+    accent: '#3B82F6',
+    image: murugaImg,
+    description: 'Iridescent peacock-feather blues paired with serene golden flute notes and sacred lotus motifs.'
+  },
+  {
+    id: 'px-god-05',
+    title: 'Divine Krishna Bansuri',
+    category: 'god',
+    subtitle: 'VRINDAVAN CELESTIAL // 03',
+    finish: 'Pearl Lustre Archival Print',
+    badge: 'Peaceful Aura',
+    accent: '#3B82F6',
+    image: templeImg,
     description: 'Iridescent peacock-feather blues paired with serene golden flute notes and sacred lotus motifs.'
   },
 
@@ -135,7 +234,7 @@ export const POSTERS = [
     finish: 'Vibrant Pop-Art Satin',
     badge: 'Classic Toon',
     accent: '#FBBF24',
-    image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=900&q=85',
+    image: doremonImg,
     description: 'Playful, colorful cartoon illustration bursting with nostalgia, bold outlines, and lively character expressions.'
   },
   {
@@ -146,7 +245,7 @@ export const POSTERS = [
     finish: 'Neon UV Reactive Matte',
     badge: 'Sci-Fi Toon',
     accent: '#3B82F6',
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=85',
+    image: oggyImg,
     description: 'Swirling cosmic portals and surreal cartoon geometry crafted with vibrant electric blues and golden highlights.'
   },
   {
@@ -157,7 +256,29 @@ export const POSTERS = [
     finish: '300 GSM Graffiti Matte',
     badge: 'Toon Street',
     accent: '#FBBF24',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=900&q=85',
+    image: pandaImg,
+    description: 'Bold street-art cartoon styling combining expressive mascot illustration with high-impact typography.'
+  },
+    {
+    id: 'px-cartoon-04',
+    title: 'Street Skater Toon Mascot',
+    category: 'cartoon',
+    subtitle: 'URBAN TOON STUDIO // 07',
+    finish: '300 GSM Graffiti Matte',
+    badge: 'Toon Street',
+    accent: '#FBBF24',
+    image: sonicImg,
+    description: 'Bold street-art cartoon styling combining expressive mascot illustration with high-impact typography.'
+  },
+    {
+    id: 'px-cartoon-03',
+    title: 'Street Skater Toon Mascot',
+    category: 'cartoon',
+    subtitle: 'URBAN TOON STUDIO // 07',
+    finish: '300 GSM Graffiti Matte',
+    badge: 'Toon Street',
+    accent: '#FBBF24',
+    image: tomImg,
     description: 'Bold street-art cartoon styling combining expressive mascot illustration with high-impact typography.'
   },
 ];

@@ -44,7 +44,7 @@ export default function Footer({ onSelectCategory }) {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pt-6 border-t border-white/10 text-center text-xs text-slate-500">
-        © {new Date().getFullYear()} Designed by <a href="" className="text-[#3B82F6] hover:underline">Aishwariya</a>. All rights reserved.
+        © {new Date().getFullYear()} Designed by <a href="" className="text-[#3B82F6] hover:underline">Aishwarya</a>. All rights reserved.
       </div>
     </footer>
   );

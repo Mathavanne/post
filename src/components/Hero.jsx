@@ -1,4 +1,7 @@
 import React from 'react';
+import onePieceImg from '../../images/anime/one-piece.jpeg';
+import ghostImg from '../../images/comics/ghost.jpeg';
+import tomImg from '../../images/cartoon/tom.jpeg';
 import { Sparkles, ArrowRight, ShieldCheck, Zap, Layers } from 'lucide-react';
 
 export default function Hero({ onExploreCategory, lightMode }) {
@@ -96,7 +99,7 @@ export default function Hero({ onExploreCategory, lightMode }) {
               {/* Background Accent Card (Gold) */}
               <div className="absolute -top-6 -right-4 w-56 h-72 rounded-2xl bg-gradient-to-br from-[#FBBF24] to-amber-700 p-1 rotate-6 shadow-neon-gold opacity-90 hidden sm:block">
                 <img
-                  src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?auto=format&fit=crop&w=600&q=80"
+                  src={onePieceImg}
                   alt="Divine Shiva Poster"
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -105,7 +108,7 @@ export default function Hero({ onExploreCategory, lightMode }) {
               {/* Background Accent Card (Blue) */}
               <div className="absolute -bottom-6 -left-6 w-56 h-72 rounded-2xl bg-gradient-to-tr from-[#3B82F6] to-blue-900 p-1 -rotate-6 shadow-neon-blue opacity-90 hidden sm:block">
                 <img
-                  src="https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=600&q=80"
+                  src={ghostImg}
                   alt="Comic Poster"
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -115,7 +118,7 @@ export default function Hero({ onExploreCategory, lightMode }) {
               <div className="relative z-10 rounded-2xl bg-[#0B1020] border-2 border-[#3B82F6] p-3 shadow-2xl">
                 <div className="relative aspect-[3/4] rounded-xl overflow-hidden border-[8px] border-neutral-950">
                   <img
-                    src="https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85"
+                    src={tomImg}
                     alt="Cyber Ronin Poster"
                     className="w-full h-full object-cover"
                   />
