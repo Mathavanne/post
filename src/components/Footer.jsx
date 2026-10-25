@@ -13,22 +13,9 @@ export default function Footer({ onSelectCategory }) {
           <p className="text-xs text-slate-400 max-w-sm leading-relaxed">
             POSTERS THAT BRING IDEAS TO LIFE. Official showcase of our wall posters crafted across Anime, Comics, Divine Spiritual Art, and Cartoon Editions.
           </p>
-          <div className="flex items-center gap-3 pt-1">
-            {[
-              { hex: '#3B82F6', name: 'Electric Blue' },
-              { hex: '#FBBF24', name: 'Impact Gold' },
-              { hex: '#0B1020', name: 'Midnight' },
-              { hex: '#F8FAFC', name: 'Alabaster' },
-            ].map((swatch) => (
-              <div key={swatch.hex} className="flex items-center gap-1.5 text-[10px] text-slate-400">
-                <span
-                  style={{ backgroundColor: swatch.hex }}
-                  className="w-3.5 h-3.5 rounded-full border border-white/20"
-                />
-                <span>{swatch.hex}</span>
-              </div>
-            ))}
-          </div>
+          {/* <p className="text-xs text-slate-400">
+            Our posters are made with the highest quality materials and printing techniques to ensure they last for years to come.
+          </p>       */}  
         </div>
 
         <div>
@@ -57,7 +44,7 @@ export default function Footer({ onSelectCategory }) {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pt-6 border-t border-white/10 text-center text-xs text-slate-500">
-        © {new Date().getFullYear()} POSTANIX (POSTERS × IDEAS × IMPACT). All rights reserved.
+        © {new Date().getFullYear()} Designed by <a href="" className="text-[#3B82F6] hover:underline">Aishwariya</a>. All rights reserved.
       </div>
     </footer>
   );
